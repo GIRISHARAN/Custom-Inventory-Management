@@ -4,6 +4,11 @@ Custom inventory management software is a comprehensive web application designed
 
 It enables users to capture and manage item details, such as name, description, and supplier information, facilitating accurate item tracking and identification. Additionally, the software may offer reporting and analytics capabilities to generate insights on inventory performance. The software aims to improve organizational efficiency, prevent stockouts, optimize inventory levels, and enhance customer satisfaction through improved inventory availability
 
+- _Date Created_: 27 JUL 2023
+- _Last Modification Date_: 27 JUL 2023
+- _Frontend/Project Deployed URL_: https://custom-inventory-management.netlify.app/
+- _Backend Deployed URL_:https://custom-inventory-po3oww4fuq-wl.a.run.app/
+- _Git URL_: https://git.cs.dal.ca/nagaraja/team2-inventory_management.git
 
 ## Features
 
@@ -36,15 +41,46 @@ The search functionality provides the users with the option to search the items 
     <li>User will logout to exit the portal.</li>
 </ol>
 
+## Authors
+
+- [Badhri Nadh Arja (B00930493)]()
+- [Bhargav Kanodiya (B00938588)]()
+- [Giri Sharan Reddy Pusuluru (B00913674)]()
+- [Kazi Aniketh Anum (B00925813)]()
+- [Piyush Akoliya (B00920744)]()
+- [Shreyas Balaji Nagaraja (B00928044)]()
+
 ## Deployment
+
+### Frontend
+
+<ol>
+    <li>Create a private repository in Github.</li>
+    <li>Push the code in the repository.</li>
+    <li>Create a Netlify Account.</li>
+    <li>Navigate to select repository for deployment.</li>
+    <li>Authorize Netlify to connect to the GitHub account.</li>
+    <li>Add the command to build the project (npm run build).</li>
+    <li>Add the base directory(frontend) in which the code to deployed is present.</li>
+    <li>Select Deploy site button.</li>
+</ol>
 
 ### Backend
 
 <ol>
-    <li>Write dockerfile and cloud buid.yaml file.</li>
+    <li>Write dockerfile and cloud buid .yaml file.</li>
     <li>Create a service in cloud run.</li>
     <li>Connect github repository to cloud run service.</li>
     <li>This setup will create a ci/cd pipeline by using dockerfile and cloud build.</li>
 </ol>
 
+## Built With
 
+- [REACT JS](https://react.dev/learn) - The JS library used
+- [Netlify](https://www.netlify.com/) - Frontend Deployment
+- [React-Bootstrap](https://react-bootstrap.github.io/) - Bootstrap Framework
+- [Bootstrap](https://getbootstrap.com/) - CSS Framework
+- [Sweet-alert](https://sweetalert2.github.io/) - Custom alert library
+- [Axios](https://axios-http.com/docs/intro) - Http client for Node.js and browser
+- [SpringBoot](https://spring.io/) - Spring Boot is an open source Java-based framework
+- [Docker](https://www.docker.com/) - Platform to build, share, and run modern applications

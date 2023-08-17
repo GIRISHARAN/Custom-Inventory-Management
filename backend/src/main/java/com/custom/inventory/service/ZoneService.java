@@ -4,7 +4,6 @@ import com.custom.inventory.model.Store;
 import com.custom.inventory.model.Zone;
 import com.custom.inventory.protocol.RequestZone;
 import com.custom.inventory.repository.StoreRepository;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import java.util.List;

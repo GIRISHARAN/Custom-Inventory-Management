@@ -5,7 +5,6 @@ import org.springframework.data.mongodb.core.index.CompoundIndex;
 import org.springframework.data.mongodb.core.index.CompoundIndexes;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-import java.util.ArrayList;
 import java.util.List;
 
 @Document(collection = "stores")
@@ -18,9 +17,9 @@ public class Store {
     private String id;
     private String name;
     private String email;
-    private ArrayList<Zone> zones;
+    private List<Zone> zones;
 
-    public Store(String name, String email, ArrayList<Zone> zones) {
+    public Store(String name, String email, List<Zone> zones) {
         this.name = name;
         this.email = email;
         this.zones = zones;
@@ -50,11 +49,11 @@ public class Store {
         this.email = email;
     }
 
-    public ArrayList<Zone> getZones() {
+    public List<Zone> getZones() {
         return zones;
     }
 
-    public void setZones(ArrayList<Zone> zones) {
+    public void setZones(List<Zone> zones) {
         this.zones = zones;
     }
 }
